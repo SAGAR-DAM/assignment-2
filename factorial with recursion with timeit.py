@@ -22,3 +22,6 @@ n=int(input("Enter the no:   "))
 x=fact(n)
 print("The factorial:  ",x)
 print(timeit(stmt = mycode, setup = mysetup, number = 10000)/10000)
+
+
+# After running this code is taking least time for calculating 200!
