@@ -20,8 +20,9 @@ void main()
    // input the values to array
    for(i=0; i<100; i++)
    {
+	   printf("%f\n",arr[i]);
    	arr[i]=1.0*(i+1)*(i+1);
-      printf("%f\n",arr[i]);
+      
    }
 
    //calling the function to evaluate mean and variance.
